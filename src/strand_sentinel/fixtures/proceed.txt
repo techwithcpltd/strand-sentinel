@@ -1,0 +1,10 @@
+SYNTHETIC DEMO REPORT — fabricated for the AWS Agent Experience Hackathon.
+Not a real tenant, property, or incident.
+
+Site visit report — Unit 4B, 12 Birchwood Close.
+
+The tenant reports a leaking pipe under the kitchen sink. The leak began
+three days ago. Water has been pooling onto the kitchen floor every day
+since, and the tenant describes the situation as urgent because the
+flooring is starting to warp. No other issues were reported during this
+visit.

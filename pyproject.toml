@@ -1,0 +1,30 @@
+[project]
+name = "strand-sentinel"
+version = "0.0.1"
+description = "StrandSentinel — Evidence Groundedness Gate (AWS Agent Experience Hackathon: Strands Decider)"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+# Task 7: real Strands Decider 2B integration. Optional so the default
+# install/test path never requires the ~1.2GB Decider/MLX stack. The `mlx`
+# extra on strands-decider itself is already platform-gated (darwin/arm64
+# only) by the upstream package, so this resolves correctly on other
+# platforms too -- mlx/mlx-lm simply won't be pulled in there.
+decider = ["strands-decider[mlx]"]
+# Task 8: real Amazon Bedrock integration (offline/mock-verified only, see
+# patterns/evidence_groundedness_gate/INTEGRATION.md). Optional so the
+# default install/test path never requires boto3. No AWS credentials,
+# region, or model access are configured by installing this group alone.
+bedrock = ["boto3"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

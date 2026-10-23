@@ -38,6 +38,9 @@ cdk.out/
 # Audit trail outputs (generated at runtime, not committed by default)
 audit/*
 
+# Project-local Hugging Face cache (Task 7: Strands Decider model weights)
+.hf_cache/
+
 # Local reference material (not part of the public submission)
 Agent Experience Hackathon_ Strands Decider _ AWS BCenter.pdf
 Agent Experience Hackathon_ Strands Decider _ AWS Builder Center.pdf

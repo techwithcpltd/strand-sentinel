@@ -1,0 +1,8 @@
+SYNTHETIC DEMO REPORT — fabricated for the AWS Agent Experience Hackathon.
+Not a real tenant, property, or incident.
+
+Site visit report — Unit 7, 48 Elm Street.
+
+The tenant reports mould growing on the bathroom ceiling. No further detail
+about when it started or how urgent the tenant considers it was recorded
+during this visit.

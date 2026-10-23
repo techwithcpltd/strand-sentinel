@@ -1,0 +1,11 @@
+SYNTHETIC DEMO REPORT — fabricated for the AWS Agent Experience Hackathon.
+Not a real tenant, property, or incident.
+
+Site visit report — Unit 2, 9 Maple Road.
+
+Early in the visit, the tenant said the heating has been off for about a
+week and that the flat has been dangerously cold the whole time. Later in
+the same visit, the tenant said the heating actually went off only once,
+for about an hour yesterday afternoon after a breaker tripped, and has
+worked fine ever since. The two accounts of how long the heating has been
+out, and how severe the situation is, directly conflict with each other.
